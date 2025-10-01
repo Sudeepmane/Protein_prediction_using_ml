@@ -1,0 +1,4 @@
+2025-10-01 19:18:10,279 - logger - INFO - Entered the data ingestion method
+2025-10-01 19:18:10,356 - logger - INFO - Read the dataframe succesfully
+2025-10-01 19:18:10,780 - logger - INFO - Train test Split initiated
+2025-10-01 19:18:11,262 - logger - INFO - ingestion of the data is completed 
