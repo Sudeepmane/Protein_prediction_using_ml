@@ -1,0 +1,9 @@
+2025-10-01 22:20:47,112 - logger - INFO - Entered the data ingestion method or component
+2025-10-01 22:20:47,214 - logger - INFO - Read the dataset as dataframe
+2025-10-01 22:20:47,821 - logger - INFO - Train test split initiated
+2025-10-01 22:20:48,433 - logger - INFO - Inmgestion of the data iss completed
+2025-10-01 22:20:48,671 - root - INFO - Read train and test data completed
+2025-10-01 22:20:48,671 - root - INFO - Obtaining preprocessing object
+2025-10-01 22:20:48,671 - root - INFO - Numerical columns: ['F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9']
+2025-10-01 22:20:48,678 - root - INFO - Applying preprocessing object on training and testing dataframes
+2025-10-01 22:20:48,775 - root - INFO - Saved preprocessing object.
