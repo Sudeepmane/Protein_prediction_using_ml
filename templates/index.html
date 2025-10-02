@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RMSD Predictor</title>
+</head>
+<body style="font-family: Arial; background-color: #f4f4f4;">
+    <div style="width: 400px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; margin-top: 50px;">
+        <h2 style="text-align: center;">Enter Features</h2>
+        <form action="/predict" method="post">
+
+            {% for i in range(1,10) %}
+                <label for="F{{i}}">F{{i}}:</label>
+                <input type="number" step="any" name="F{{i}}" required><br><br>
+            {% endfor %}
+
+            <button type="submit" style="width:100%; padding:10px; background:#4CAF50; color:white; border:none; border-radius:5px;">
+                Predict RMSD
+            </button>
+        </form>
+
+        <h3 style="text-align:center; color:#333; margin-top:20px;">
+            {{ prediction_text }}
+        </h3>
+    </div>
+</body>
+</html>
