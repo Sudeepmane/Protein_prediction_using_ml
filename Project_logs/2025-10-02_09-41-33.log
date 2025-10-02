@@ -1,0 +1,12 @@
+2025-10-02 09:41:34,148 - root - INFO - Entered the data ingestion method/component
+2025-10-02 09:41:34,187 - root - INFO - Read the dataset as dataframe
+2025-10-02 09:41:34,396 - root - INFO - Performing train-test split (80/20)
+2025-10-02 09:41:34,640 - root - INFO - Data ingestion completed successfully
+2025-10-02 09:41:34,716 - root - INFO - Read train and test data completed
+2025-10-02 09:41:34,716 - root - INFO - Obtaining preprocessing object
+2025-10-02 09:41:34,716 - root - INFO - Numerical columns: ['F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9']
+2025-10-02 09:41:34,718 - root - INFO - Applying preprocessing object on training and testing dataframes
+2025-10-02 09:41:34,820 - root - INFO - Saved preprocessing object.
+2025-10-02 09:41:34,822 - root - INFO - Splitting training and test input data
+2025-10-02 09:41:34,822 - root - INFO - Training Random Forest Regressor
+2025-10-02 09:42:06,409 - root - INFO - Model Evaluation Scores: {'train_r2': 0.9997874451153267, 'test_r2': 0.9985401845653648, 'test_mse': 0.0014704534644688781, 'test_rmse': np.float64(0.03834649220553137), 'test_mae': 0.0256278420419111}
